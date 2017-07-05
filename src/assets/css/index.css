@@ -1,13 +1,7 @@
-html {
-  box-sizing: border-box;
+.wrapper {
+  margin: 40px;
 }
 
-html, body {
-  height: 100%;
-  margin: 0;
-  padding: 0;
-}
-
-*, *::before, *::after {
-  box-sizing: inherit;
+.rowContainer {
+  margin-bottom: 10px;
 }

@@ -2,12 +2,15 @@ import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 
 import '../assets/css/index.css';
+import { createRow } from './PatternRow';
 
 class Root extends Component {
   render() {
+    const soleTitles = createRow();
+
     return (
       <div className="wrapper">
-        <h1>Hello World!</h1>
+        {soleTitles}
         {this.props.children}
       </div>
     );

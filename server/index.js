@@ -3,7 +3,6 @@ const path = require('path');
 const express = require('express');
 const webpack = require('webpack');
 const bodyParser = require('body-parser');
-const morgan = require('morgan');
 
 const config = require('../webpack.config');
 
